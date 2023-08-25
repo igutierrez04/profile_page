@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto condensed', sans-serif;
-
+    /* border: 2px solid red; */
 }
 
 .nav-container {
@@ -54,26 +54,26 @@
 }
 
 .body-container {
-    width: 900px;
+    width: 1185px;
+    height: 1000px;
     margin: 0px auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-between;
 }
 
 .user-card{
-    width: 100%;
+    width: 50%;
+    height: 40.5%;
     background-color: #ffffff;
     border: 2px solid #cccccc;
     border-radius: 5px;
-    flex: 2;
 }
 
 .card-header {
-    background-color: #17a2b8;
+    background-color: #333333;
     height: 110px;
     margin-bottom: 60px;
-    border: 1px solid #17a2b8;
+    border: 1px solid #333333;
     border-radius: 5px;
 }
 
@@ -96,4 +96,41 @@
 
 .icon{
     height: 15px;
+}
+
+.right-column{
+    border: 2px solid #cccccc;
+    width: 30%;
+    height: 29%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-title {
+    border: #333333;
+    width: 100%;
+    height: 60px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+}
+
+.right-column-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user-pics{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.yes-no-icons {
+    height: 50px;
 }
